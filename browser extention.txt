@@ -1,0 +1,6 @@
+1. colorPick eyedropper 
+2.cssViewer 
+3. ruler
+4. stylebot 
+5.take webpage screenshots entirely 
+6.what font 
