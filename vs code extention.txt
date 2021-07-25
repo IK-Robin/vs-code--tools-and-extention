@@ -1,0 +1,11 @@
+1. auto close tag
+2. auto complete Tag
+3.Auto Rename tag
+4. Bracket Jumper
+5. Bracket Pair Colorizer
+6.Highlight
+7. Highlight Matching Tag.
+8. Live srver
+9. Open in browser
+10. Quokka.js
+11. Text Marker (highilighter)
