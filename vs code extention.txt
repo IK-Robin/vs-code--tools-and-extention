@@ -9,3 +9,11 @@
 9. Open in browser
 10. Quokka.js
 11. Text Marker (highilighter)
+Prettier - Code formatter
+Simple React Snippets
+vscode-styled-components
+ Dracula Official
+ES7 React/Redux/GraphQL/React-Native snippets
+React-Native/React/Redux snippets for es6/es7
+yarn 
+yarn instaler
