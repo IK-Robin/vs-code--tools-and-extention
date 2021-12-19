@@ -18,3 +18,4 @@ React-Native/React/Redux snippets for es6/es7
 yarn 
 yarn instaler
 eslint
+Path Intellisense
