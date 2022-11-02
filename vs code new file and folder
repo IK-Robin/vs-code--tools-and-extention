@@ -1,0 +1,16 @@
+vs code create new file and folder code 
+first go to 
+
+Hit Cmd+Shift+p type key and hit enter on Preferences: Open Keyboard Shortcuts
+You sent
+create new file shortcut
+You sent
+code  [
+  { "key": "ctrl+n",
+    "command": "explorer.newFile",
+    "when": "!editorFocus" },
+
+  { "key": "ctrl+shift+n",
+    "command": "explorer.newFolder",
+    "when": "!editorFocus" }
+]
