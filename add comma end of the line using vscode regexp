@@ -1,0 +1,32 @@
+User
+i have some id in the html code its value are different such as id="dsfa",id ="dsfsdafsadf",id="sdfd" and more here i want to add a comma after the end of the line using vs code find methode id":"sdfd",id:"dsfsdafsadf" like this is it possiable in one click 
+
+
+
+Absolutely! You can use the Find and Replace functionality in VS Code to achieve this in just a few steps. Here's how you can add a comma after the end of each line that contains id attributes in HTML:
+
+Open the file containing your HTML code in VS Code.
+
+Press Ctrl + F (Windows/Linux) or Cmd + F (Mac) to open the Find widget.
+
+Click the three dots (...) on the left side of the Find widget to expand the advanced options.
+
+Check the box next to the .* button to enable regular expressions in the Find widget.
+
+In the Find input field, type in the following regular expression to match id attributes:
+
+bash
+Copy code
+id="[^"]+"id="[^"]+"
+
+In the Replace input field, type:
+
+ruby
+Copy code
+$&
+,
+This will replace each matched id attribute with itself ($&) followed by a comma ,.
+
+Press Alt + Enter (Windows/Linux) or Option + Enter (Mac) to replace all occurrences or use Alt + R (Windows/Linux) or Option + Command + Enter (Mac) to replace them one by one.
+
+This process will find all occurrences of id attributes in your HTML code and add a comma at the end of each line. Always ensure you have a backup of your code or use version control systems like Git to track changes before performing bulk replacements.
